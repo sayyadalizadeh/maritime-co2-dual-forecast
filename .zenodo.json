@@ -1,0 +1,18 @@
+{
+  "title": "maritime-co2-dual-forecast: code and stored outputs for an open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting",
+  "upload_type": "software",
+  "description": "<p>Code, documentation and stored outputs for the paper <em>An open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting</em>, submitted to Environmental Modelling &amp; Software. Monthly CO2 emissions of shipping published by the OECD for 110 economies, a Residual node and the World are forecast 1 to 12 months ahead with statistical models, a global LightGBM and zero-shot foundation models (Chronos-Bolt, TimesFM 2.5, TimesFM 3.0). The forecasts are reconciled so that every identity of the residence and territory accounting bases holds exactly, with non-negative values (an exact quadratic program); probabilistic forecasts are built from exactly reconciled samples and calibrated with adaptive conformal inference and pooled split conformal intervals; the forecasts are tested on data published after the models were released; and the horizon up to which they carry skill is estimated. The archive holds the stored forecasts, reconciled forecasts, evaluation results, final forecasts and the files the tests read, so that every table and figure of the paper can be regenerated without refitting and without a GPU. The OECD data are redistributed with attribution under section 3 (Data, Permitted Use) of the OECD Terms and Conditions; see DATA_NOTICE.md. The MIT licence covers the code only.</p>",
+  "creators": [
+    {"name": "Alizadeh, Sayyad", "affiliation": "Department of Software Development, Faculty of Science, Karadeniz Technical University, Trabzon, Türkiye", "orcid": "0000-0003-1923-9380"},
+    {"name": "Yazir, Devran", "affiliation": "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye", "orcid": "0000-0002-6825-8142"},
+    {"name": "Hocek, Hürol", "affiliation": "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye", "orcid": "0009-0002-0787-1557"},
+    {"name": "Özdemir, Ünal", "affiliation": "Maritime Faculty, Department of Maritime Transportation and Management Engineering, Mersin University, Mersin, Türkiye", "orcid": "0000-0001-9682-4239"}
+  ],
+  "license": "MIT",
+  "keywords": ["maritime CO2 emissions", "forecast reconciliation", "linearly constrained forecasts", "hierarchical forecasting", "conformal prediction", "adaptive conformal inference", "foundation models", "time series forecasting", "OECD", "SEEA", "UNFCCC"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/sayyadalizadeh/maritime-co2-dual-forecast/tree/v1.0", "relation": "isSupplementTo", "scheme": "url"}
+  ],
+  "version": "1.0.0",
+  "language": "eng"
+}

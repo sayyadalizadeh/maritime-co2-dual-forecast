@@ -1,0 +1,15 @@
+Item,Value
+System economies (all seven components 2019-01 to 2026-06 after the structural-zero rule),110
+  of which joined through structural zeros,39
+Units in the constraint system (economies + Residual + World),112
+Series in the constraint system (10 measures per unit),1120
+  plus the World discrepancy node DELTA_INT,1
+"Outside-system economies (published totals only, forecast separately)",25
+Outside-system series,49
+"Constraint rows (within-unit, aggregation, world balance)",348
+  within-unit rows,336
+  aggregation rows,10
+  world-balance rows,2
+Rank of the constraint matrix (redundant rows removed),345
+Structural zeros filled (system unit-component-months),1684
+Months,2019-01 to 2026-06 (90); residence totals published to 2026-09

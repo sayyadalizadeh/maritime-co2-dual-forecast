@@ -1,0 +1,7 @@
+# code and documentation: normal text handling
+* text=auto
+# the paper's outputs are stored byte for byte, so that a regeneration can be compared exactly on every platform
+results/paper/** -text
+figures/** -text
+*.pdf binary
+*.tif binary

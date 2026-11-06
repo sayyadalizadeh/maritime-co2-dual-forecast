@@ -1,0 +1,12 @@
+Data issue,How it is handled
+Missing component values where the published totals identify them as zero,Structural zeros (every published total containing the value adds up without it); logged; nothing else filled
+Published residence total differs from the component sum,System total = component sum A+B+D+E+F; the published total is scored with the forecast divided by (1 - d)
+E(World) + F(World) differs from G(World) by about 0.1%,Discrepancy node DELTA_INT; in reconciliation the ratio r = DELTA_INT / G(World) enters the balance row
+OECD aggregate is not the sum of its members (territory),Group totals built from economies
+September 2025 spike (suspected processing artefact),flag_sep2025: every evaluation with and without it
+"2022 domestic/international episode, 2021-12 to 2022-10: World international share 74.1% (same months a year earlier) to 65.5% (minimum 64.4% in 2022-06); B = C +188 kt/day, F -167, G -173; World totals +2.5%","Documented (DATA_RULES.md, Fig. 1); 11 of the 13 long-horizon origins (2021-12 to 2022-12) lie inside it, which affects the reading of the skill estimates for components and territory measures; diagnostic skill of the totals in results/episode_2022/skill_totals.csv"
+2026 domestic/international reclassification (about 300 kt/day by June 2026),Main evaluation window ends 2025-12; 2026-01 to 2026-06 is a separate stress test
+Series that are zero for two years,"Fixed at zero at that origin, still scored"
+"Switzerland: A, B, F unpublished for 2025",Outside the system; published residence total forecast as an outside-system series
+"Territory assignment of ports (e.g. Malaysia high, Hong Kong low)",Not handled; reported as a limitation (DATA_RULES.md)
+"Components published to 2026-06, residence totals to 2026-09",The test at origin 2026-06 scores the published residence totals of 2026-07 to 2026-09

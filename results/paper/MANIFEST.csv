@@ -1,0 +1,13 @@
+output,type,script,inputs
+"T1a_system.csv, T1b_coverage.csv, T1c_issues.csv",table,src/paper_tables.py,results/system_economies_v2.csv; results/C_matrix_cols_v2.csv; results/C_matrix_rows_v2.csv; results/coverage_2025_v2.csv; results/structural_zeros.csv; data/clean/panel_outside_v2.parquet; results/episode_2022 (src/episode_2022.py)
+T2_base_models.csv,table,src/paper_tables.py,results/eval_fm_v2/summary_weighted.csv; results/eval_fm_v2/mcs_90.csv (src/evaluate_fm.py)
+"T3a_reconciliation_economies.csv, T3b_reconciliation_world.csv",table,src/paper_tables.py,results/eval_fm_w/summary.csv (src/evaluate_fm_w.py)
+"T3c_incoherence.csv, T3c_incoherence_cells.csv",table,src/paper_tables.py,"results/base_forecasts_v2, results/base_forecasts_fm (forecasts.parquet); data/clean/panel_system_wide_v2.parquet"
+T4_probabilistic.csv,table,src/paper_tables.py,"results/eval_prob_exact_nested/summary_crps.csv, summary_intervals.csv, summary_joint.csv (src/exact_eval.py; src/evaluate_prob.py --nest --prob-dir results/prob_main_exact)"
+"T5a_realtime.csv, T5b_realtime_units.csv, T5c_release_dates.csv",table,src/paper_tables.py,results/eval_realtime_exact_ext_nested (src/exact_samples.py; src/evaluate_realtime.py --d-form exact --nest --prob-dir results/prob_realtime_exact --aci-name aci_intervals_ext.parquet); release dates from the Hugging Face API
+"T5a_realtime_eval_state.csv, T5b_realtime_units_eval_state.csv",table (robustness),src/paper_tables.py,"results/eval_realtime_exact_nested (as T5a, T5b; origin 2026-06 with the ACI state of the evaluation origins only)"
+"T6_skill.csv, T6b_hstar_variants.csv",table,src/paper_tables.py,"results/skill/skill.csv, hstar.csv (src/skill.py)"
+S1_forecasts_FM_2026-07_2027-06.csv,supplementary file,src/paper_tables.py,"results/final_exact/track=FM/forecasts.parquet (src/final_samples.py, src/exact_samples.py --part aci, src/final_bands.py --out results/final_exact); results/conformal_s1/s1_conformal.csv (src/conformal_s1.py)"
+S1a_aci_floor_flags.csv,supplementary file,src/paper_tables.py,"results/final_exact/track=FM/forecasts.parquet, track=STAT/forecasts.parquet (src/final_bands.py)"
+S3_data_dictionary.csv,supplementary file,src/paper_tables.py,-
+tables.md,tables (Markdown),src/paper_tables.py,all of the above

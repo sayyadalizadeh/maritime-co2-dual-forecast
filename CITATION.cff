@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this software or its stored outputs, please cite the paper (preferred citation) and this software."
+title: "maritime-co2-dual-forecast: an open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting"
+type: software
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-06"
+repository-code: "https://github.com/sayyadalizadeh/maritime-co2-dual-forecast"
+keywords:
+  - maritime CO2 emissions
+  - forecast reconciliation
+  - linearly constrained forecasts
+  - hierarchical forecasting
+  - conformal prediction
+  - foundation models
+  - OECD
+authors:
+  - given-names: Sayyad
+    family-names: Alizadeh
+    affiliation: "Department of Software Development, Faculty of Science, Karadeniz Technical University, Trabzon, Türkiye"
+    email: alizadeh@ktu.edu.tr
+    orcid: "https://orcid.org/0000-0003-1923-9380"
+  - given-names: Devran
+    family-names: Yazir
+    affiliation: "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye"
+    orcid: "https://orcid.org/0000-0002-6825-8142"
+  - given-names: Hürol
+    family-names: Hocek
+    affiliation: "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye"
+    orcid: "https://orcid.org/0009-0002-0787-1557"
+  - given-names: Ünal
+    family-names: Özdemir
+    affiliation: "Maritime Faculty, Department of Maritime Transportation and Management Engineering, Mersin University, Mersin, Türkiye"
+    orcid: "https://orcid.org/0000-0001-9682-4239"
+preferred-citation:
+  type: article
+  title: "An open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting"
+  journal: "Environmental Modelling & Software"
+  status: submitted
+  year: 2026
+  authors:
+    - given-names: Sayyad
+      family-names: Alizadeh
+      affiliation: "Department of Software Development, Faculty of Science, Karadeniz Technical University, Trabzon, Türkiye"
+      orcid: "https://orcid.org/0000-0003-1923-9380"
+    - given-names: Devran
+      family-names: Yazir
+      affiliation: "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye"
+      orcid: "https://orcid.org/0000-0002-6825-8142"
+    - given-names: Hürol
+      family-names: Hocek
+      affiliation: "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye"
+      orcid: "https://orcid.org/0009-0002-0787-1557"
+    - given-names: Ünal
+      family-names: Özdemir
+      affiliation: "Maritime Faculty, Department of Maritime Transportation and Management Engineering, Mersin University, Mersin, Türkiye"
+      orcid: "https://orcid.org/0000-0001-9682-4239"

@@ -1,0 +1,13 @@
+# the archive of stored outputs (attached to the GitHub release), the release assets built from it, and everything
+# restored from it or rebuilt by the pipeline
+archive/
+release-assets/
+data/
+results/*
+!results/paper/
+results/run_log.csv
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,14 @@
+file,column,description
+S1,unit,OECD area code of a system economy; RESIDUAL = everything not modelled individually; W = World
+S1,unit_type,"economy, residual or world"
+S1,measure,"RES_DOM_IN (A), RES_DOM_OUT (B), NRES_DOM_IN (C), RES_INT_FROM (D), RES_INT_TO (E), RES_INT_OUT (F), NRES_INT_FROM (G), RES_TOTAL_SYS = A+B+D+E+F, TER_DOM = A+C, TER_INT = D+G"
+S1,month,"target month (YYYY-MM), 2026-07 to 2027-06 (horizons 1-12 from origin 2026-06)"
+S1,horizon,months after the origin 2026-06
+S1,point,"FM track point forecast: TimesFM 2.5 base, MinT reconciliation with its own W, exact non-negative QP; t CO2 per day"
+S1,"lo95, hi95","calibrated 95% interval (ACI, gamma 0.05, state extended to 2026-06; the ACI recursion and the final samples use samples reconciled with the exact non-negative QP); t CO2 per day"
+S1,"lo80, hi80","calibrated 80% ACI interval, clipped to lie inside the 95% interval; t CO2 per day"
+S1,"lo95_conformal, hi95_conformal","pooled split-conformal 95% interval: point -/+ q(h, g) x scale, where q is the split-conformal quantile (level ceil((N + 1)(1 - alpha)) / N) of the scaled absolute errors of the FM track's rolling-origin point forecasts (origins 2022-12 to 2025-06) of all system series of the same measure group g (residence total; territory measures; components) at horizon h, with targets known at 2026-06, and scale = the series' seasonal-naive scale up to 2026-06; lower bound clipped at zero. As in the real-time test (T5a). Recommended for the residence totals; t CO2 per day"
+S1,"lo80_conformal, hi80_conformal","pooled split-conformal 80% interval, as above (nested inside the 95% interval by construction); t CO2 per day"
+S1,aci_at_floor,flag: which ACI levels have alpha at its floor (0.001) after the 2026 outcomes: none; 95 (the 95% interval is almost the range of the 500 reconciled samples); 80_and_95 (both levels); 80 (the 80% level only; after nesting the 80% interval equals the 95% interval). Flagged intervals carry a caveat
+S1,headline intervals,"headline intervals are those of the totals, RES_TOTAL_SYS and TER_DOM + TER_INT, which the 2026 reclassification does not affect. Intervals of the components and of the domestic/international split are given with the flag and a caveat. S1 has TER_DOM and TER_INT as separate series; their interval bounds do not add up to an interval of TER_DOM + TER_INT"
+all,units,t CO2 per day. Point forecasts are coherent across measures and units; interval bounds are per series and do not add up

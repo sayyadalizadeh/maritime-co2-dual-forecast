@@ -1,0 +1,5 @@
+Item,Identifier,Date (Hugging Face API)
+TimesFM 2.5,google/timesfm-2.5-200m-pytorch,repository created 2025-09-02; weights last modified 2025-10-02
+TimesFM 3.0,google/timesfm-3.0-pytorch,created 2026-08-24; revision last modified 2026-09-02
+Chronos-Bolt,amazon/chronos-bolt-base,created 2024-11-25; revision last modified 2025-11-21
+OECD data (targets 2026-07 to 2026-09),OECD.SDD.NAD.SEEA:DSD_MARITIME_TRANSPORT@DF_MARITIME_TRANSPORT(2.0),published 14 October 2026

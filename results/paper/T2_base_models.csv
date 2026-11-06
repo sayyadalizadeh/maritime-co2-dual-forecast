@@ -1,0 +1,10 @@
+model,MASE_median,MASE_weighted,RMSSE_weighted,cov80_mean,cov80_weighted,MCS90_system_economies_all_h,MCS90_system_economies_h_groups,MCS90_all_series_all_h,MCS90_all_series_h_groups
+Seasonal naive,0.971635,0.986394,0.995929,0.806374,0.797849,False,12,False,12
+Drift,0.98298,0.934272,0.9753,0.900261,0.882972,False,,False,
+ETS (AutoETS),0.834338,0.826628,0.866687,0.817142,0.833619,False,12,False,12
+Theta (AutoTheta),0.872972,0.857229,0.896139,0.801213,0.820678,False,,False,
+ARIMA (AutoARIMA),0.83876,0.866146,0.893309,0.787699,0.784627,False,,False,
+LightGBM (global),0.868484,1.02816,1.00764,,,False,,False,
+Chronos-Bolt,0.802375,0.836027,0.872066,0.789864,0.783452,False,,False,3
+TimesFM 3.0,0.78774,0.79464,0.831664,0.785452,0.7682,False,1 3,False,1 3
+TimesFM 2.5,0.780666,0.792479,0.828541,0.7716,0.749117,True,1 3 6 12,True,3 6 12

@@ -1,0 +1,7 @@
+track,method,MASE_median_economies,MASE_weighted_economies
+"FM (TimesFM 2.5, own W)",base,0.780666,0.792479
+"FM (TimesFM 2.5, own W)",WLS,0.778504,0.79627
+"FM (TimesFM 2.5, own W)",MinT,0.778613,0.782706
+STAT (AutoETS),base,0.834338,0.826628
+STAT (AutoETS),WLS,0.827357,0.821839
+STAT (AutoETS),MinT,0.817949,0.793338

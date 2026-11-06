@@ -1,0 +1,7 @@
+files,manuscript,script,inputs
+Fig1.pdf; Fig1.tif,Fig1,src/paper_figures.py,data/clean/panel_system_wide_v2.parquet; results/episode_2022/episode_summary.csv
+Fig3.pdf; Fig3.tif,Fig3,src/paper_figures.py,results/paper/T3c_incoherence_cells.csv
+Fig4.pdf; Fig4.tif,Fig4,src/paper_figures.py,results/eval_fm_w/summary_by_horizon.csv; results/eval_prob_exact_nested/summary_crps.csv; results/paper/fig4b_stat_crps_without_2024-09.csv (from results/prob_main_exact/track=STAT/crps.parquet)
+Fig5.pdf; Fig5.tif,Fig5,src/paper_figures.py,results/eval_prob_exact_nested/summary_intervals.csv
+Fig6.pdf; Fig6.tif,Fig6,src/paper_figures.py,results/eval_realtime_exact_ext_nested/res_total_pub_cells.csv; results/prob_realtime_exact/track=*/aci_intervals_ext.parquet; data/clean/realtime_res_total_pub_2026-07_2026-09_v2.parquet; data/clean/panel_system_v2.parquet
+Fig7.pdf; Fig7.tif,Fig7,src/paper_figures.py,results/paper/T6_skill.csv

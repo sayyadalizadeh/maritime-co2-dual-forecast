@@ -2,7 +2,7 @@
 
 **An open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting**
 
-Sayyad Alizadeh, Devran Yazir, Hürol Hocek, Ünal Özdemir
+Sayyad Alizadeh, Devran Yazir, Hürol Hocek
 
 This supplement contains Tables S1 to S45, numbered in the order in which the paper cites them. Each table names the file of the public repository that holds it in full.
 

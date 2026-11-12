@@ -5,8 +5,7 @@
   "creators": [
     {"name": "Alizadeh, Sayyad", "affiliation": "Department of Software Development, Faculty of Science, Karadeniz Technical University, Trabzon, Türkiye", "orcid": "0000-0003-1923-9380"},
     {"name": "Yazir, Devran", "affiliation": "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye", "orcid": "0000-0002-6825-8142"},
-    {"name": "Hocek, Hürol", "affiliation": "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye", "orcid": "0009-0002-0787-1557"},
-    {"name": "Özdemir, Ünal", "affiliation": "Maritime Faculty, Department of Maritime Transportation and Management Engineering, Mersin University, Mersin, Türkiye", "orcid": "0000-0001-9682-4239"}
+    {"name": "Hocek, Hürol", "affiliation": "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye", "orcid": "0009-0002-0787-1557"}
   ],
   "license": "MIT",
   "keywords": ["maritime CO2 emissions", "forecast reconciliation", "linearly constrained forecasts", "hierarchical forecasting", "conformal prediction", "adaptive conformal inference", "foundation models", "time series forecasting", "OECD", "SEEA", "UNFCCC"],

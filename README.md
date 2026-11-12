@@ -2,7 +2,7 @@
 
 Code, stored outputs and documentation for the paper:
 
-> Sayyad Alizadeh, Devran Yazir, Hürol Hocek and Ünal Özdemir. *An open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting*. Submitted to Environmental Modelling & Software.
+> Sayyad Alizadeh, Devran Yazir and Hürol Hocek. *An open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting*. Submitted to Environmental Modelling & Software.
 
 **Status.** The paper has been submitted to Environmental Modelling & Software. This is release v1.0 of the code, with the stored outputs attached to the GitHub release. A Zenodo archive with a DOI will follow on acceptance.
 
@@ -10,7 +10,6 @@ Authors:
 - Sayyad Alizadeh: Department of Software Development, Faculty of Science, Karadeniz Technical University, Trabzon, Türkiye (contact: alizadeh@ktu.edu.tr)
 - Devran Yazir: Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye
 - Hürol Hocek: Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye
-- Ünal Özdemir: Maritime Faculty, Department of Maritime Transportation and Management Engineering, Mersin University, Mersin, Türkiye
 
 The OECD publishes monthly CO2 emissions of shipping for each economy on two accounting bases:
 - **residence:** emissions are counted for the economy where the ship operator is resident (environmental-economic accounts);
@@ -92,6 +91,8 @@ If the assets were downloaded by hand (from the release page) into `release-asse
 ```
 
 Both commands verify every archive file against `MANIFEST.csv`; `python src/archive.py verify` repeats the check at any time. To keep the archive elsewhere, pass `--archive <folder>` or set the environment variable `MARITIME_ARCHIVE` to that folder; the tests use the same variable. `archive/` and `release-assets/` are ignored by git.
+
+`results/paper/SUPPLEMENTARY_TABLES.md` differs from its copy in the v1.0 archive only in the author line, which was updated after the release: `src/archive.py restore` keeps the committed file, and `--overwrite` must not be used for this file, because it would bring back the old author line.
 
 ## Data
 

@@ -28,10 +28,6 @@ authors:
     family-names: Hocek
     affiliation: "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye"
     orcid: "https://orcid.org/0009-0002-0787-1557"
-  - given-names: Ünal
-    family-names: Özdemir
-    affiliation: "Maritime Faculty, Department of Maritime Transportation and Management Engineering, Mersin University, Mersin, Türkiye"
-    orcid: "https://orcid.org/0000-0001-9682-4239"
 preferred-citation:
   type: article
   title: "An open framework for coherent forecasting of national maritime CO2 emissions under residence and territory accounting"
@@ -51,7 +47,3 @@ preferred-citation:
       family-names: Hocek
       affiliation: "Surmene Faculty of Maritime Sciences, Karadeniz Technical University, Trabzon, Türkiye"
       orcid: "https://orcid.org/0009-0002-0787-1557"
-    - given-names: Ünal
-      family-names: Özdemir
-      affiliation: "Maritime Faculty, Department of Maritime Transportation and Management Engineering, Mersin University, Mersin, Türkiye"
-      orcid: "https://orcid.org/0000-0001-9682-4239"
